@@ -3,6 +3,7 @@ export const activityTopics = [
   {
     id: 1,
     title: 'Mindfulness Exercise',
+    description: 'A simple practice to reduce stress and increase focus through breathing and awareness.',
     icon: 'self_improvement',
     content: [
       { type: 'text', value: 'Welcome to the Mindfulness Exercise. This simple practice can help reduce stress and increase focus.' },
@@ -26,6 +27,7 @@ export const activityTopics = [
   {
     id: 2,
     title: 'Gratitude Practice',
+    description: 'Improve your mood by acknowledging the things you\'re thankful for in your life.',
     icon: 'favorite',
     content: [
       { type: 'text', value: 'Practicing gratitude can significantly improve your mood and overall well-being.' },
@@ -60,6 +62,7 @@ export const activityTopics = [
   {
     id: 3,
     title: '5-4-3-2-1 Grounding Technique',
+    description: 'Use your five senses to anchor yourself in the present moment and reduce anxiety.',
     icon: 'touch_app',
     content: [
       { type: 'text', value: 'The 5-4-3-2-1 technique is a powerful grounding exercise that uses your five senses to help you focus on the present moment.' },
@@ -126,6 +129,7 @@ export const activityTopics = [
   {
     id: 4,
     title: 'Progressive Muscle Relaxation',
+    description: 'Release tension by systematically tensing and relaxing different muscle groups throughout your body.',
     icon: 'fitness_center',
     content: [
       { type: 'text', value: 'Progressive Muscle Relaxation is a technique that helps you relax by systematically tensing and then relaxing different muscle groups.' },
@@ -163,7 +167,6 @@ export const activityTopics = [
           ]
         }
       },
-      // ... Continue with other muscle groups (shoulders, chest, stomach, legs, feet) ...
       { type: 'text', value: 'Great job! Take a moment to notice how your body feels now compared to when you started.' },
       { 
         type: 'input', 
@@ -182,6 +185,7 @@ export const activityTopics = [
   {
     id: 5,
     title: 'Visualizing Your Safe Place',
+    description: 'Create a mental sanctuary you can visit anytime for comfort, peace, and emotional regulation.',
     icon: 'landscape',
     content: [
       { type: 'text', value: 'Visualization is a powerful technique for relaxation and stress relief. We\'ll guide you through creating and visiting your safe, peaceful place.' },
